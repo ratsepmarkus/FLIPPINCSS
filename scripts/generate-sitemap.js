@@ -16,7 +16,7 @@ const prettier = require("prettier");
                 const route = path === "/index" ? "" : path;
                 return `
                         <url>
-                            <loc>${`https://cssbuttons.app${route}`}</loc>
+                            <loc>${`${route}`}</loc>
                         </url>
                     `;
               })

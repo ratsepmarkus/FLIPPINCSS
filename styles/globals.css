@@ -5,19 +5,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
 
 :root {
-  --secondary-background-color: #363434;
+  --secondary-background-color: #222;
   --color-white: #ffffff;
   --font-size: 16px;
   --line-height: 26px;
   --viewer-width: 300px;
   --header-height: 48px;
   --icon-size: 20px;
-  --background-color: #101010;
+  --background-color: #222;
   --text-color: rgb(255, 255, 255);
   --color-black: #030303;
   --panel-width: 300px;
   --panel-padding: 16px;
-  --border-style: 2px solid #232323;
+  --border-style: 2px solid #333;
 }
 
 * {
@@ -93,7 +93,7 @@ body {
 }
 
 #panel {
-  background-color: #101010;
+  background-color: #230046;
   position: fixed;
   z-index: 100;
   left: 0px;
@@ -360,11 +360,11 @@ button {
   align-items: center;
   z-index: 0;
   height: 179px;
-  border: 1px solid #232323;
+  border: 1px solid #230046;
 }
 
 .dark {
-  background-color: #101010;
+  background-color: #320064;
 }
 
 .light {

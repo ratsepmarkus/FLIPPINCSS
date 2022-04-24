@@ -2,10 +2,7 @@ import Link from "next/link";
 
 export default function Sidebar() {
   return (
-    <div id="panel">
-      <div id="header">
-        <Link href="/">cssbuttons.app</Link>
-      </div>
+    <div id="panel"> 
       <div id="panelScrim">
         <div id="contentWrapper">
           <div id="content">
@@ -67,12 +64,6 @@ export default function Sidebar() {
                 </a>
               </li>
             </ul>
-            <a href="https://getcssscan.com/?ref=cssbuttonsapp">
-              <div className="cssscan">
-                <img src="https://toastlog.com/img/logos/cssscan.svg" alt="CSS Scan logo" />
-                CSS Scan - Easily inspect or copy any website&apos;s CSS
-              </div>
-            </a>
           </div>
         </div>
       </div>
